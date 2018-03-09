@@ -96,7 +96,10 @@ strong, b {
 
 .header__body {
   min-height: 800px;
-  background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 92%); }
+  background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 64%); }
+  .header__body.inner-page {
+    min-height: 428px;
+    height: 428px; }
 .header__logo {
   height: 120px; }
 .header__content {
@@ -249,6 +252,9 @@ p {
   .raised.tobottom {
     margin-bottom: -76px;
     padding-bottom: 48px; }
+  .raised.raised-inner-form {
+    margin-top: -230px;
+    margin-bottom: 96px; }
   .raised__features {
     margin-top: 88px; }
 
@@ -508,6 +514,21 @@ p {
   opacity: 0 !important; }
   .scroll-to-top:hover {
     opacity: 1 !important; }
+
+/* Forms */
+.form-group label {
+  opacity: 0.7; }
+.form-group .form-control {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 1rem !important;
+  border-color: rgba(12, 52, 76, 0.3);
+  height: 40px; }
+
+.form-how-work button[type="submit"] {
+  width: 100%;
+  margin-top: 30px; }
 
 /* Animation */
 @-webkit-keyframes noteUpBlink {

@@ -112,7 +112,11 @@ strong, b {
 .header {
   &__body {
     min-height: 800px;
-    background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 92%);
+    background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 64%);
+    &.inner-page {
+      min-height: 428px;
+      height: 428px;
+    }
   }
   &__logo {
     height: 120px;
@@ -289,6 +293,10 @@ p {
   &.tobottom {
     margin-bottom: -76px;
     padding-bottom: 48px;
+  }
+  &.raised-inner-form {
+    margin-top: -230px;
+    margin-bottom: 96px;
   }
   &__features {
     margin-top: 88px;
@@ -625,6 +633,27 @@ p {
   opacity: 0 !important;
   &:hover {
     opacity: 1 !important;
+  }
+}
+
+/* Forms */
+.form-group {
+  label {
+    opacity: 0.7;
+  }
+  .form-control {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 1rem !important;
+    border-color: rgba(12,52,76,0.30);
+    height: 40px;
+  }
+}
+.form-how-work {
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 30px;
   }
 }
 
