@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/moq</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C2E9FB" offset="0%"></stop>
+            <stop stop-color="#A1C4FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icons/moq" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <rect id="Rectangle-5" x="0" y="0" width="40" height="40"></rect>
+            <path d="M31,13 L36,13 C36.5522847,13 37,13.4477153 37,14 L37,38 C37,38.5522847 36.5522847,39 36,39 L31,39 C30.4477153,39 30,38.5522847 30,38 L30,14 C30,13.4477153 30.4477153,13 31,13 Z M22,1 L27,1 C27.5522847,1 28,1.44771525 28,2 L28,38 C28,38.5522847 27.5522847,39 27,39 L22,39 C21.4477153,39 21,38.5522847 21,38 L21,2 C21,1.44771525 21.4477153,1 22,1 Z M13,20 L18,20 C18.5522847,20 19,20.4477153 19,21 L19,38 C19,38.5522847 18.5522847,39 18,39 L13,39 C12.4477153,39 12,38.5522847 12,38 L12,21 C12,20.4477153 12.4477153,20 13,20 Z M4,9 L9,9 C9.55228475,9 10,9.44771525 10,10 L10,38 C10,38.5522847 9.55228475,39 9,39 L4,39 C3.44771525,39 3,38.5522847 3,38 L3,10 C3,9.44771525 3.44771525,9 4,9 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
