@@ -34,6 +34,10 @@ strong, b {
     color: #ffffff;
     font-size: 24px;
     font-weight: 700; }
+    @media all and (max-width: 575px) {
+      .btn.btn-lg {
+        font-weight: 600;
+        padding: 0 1rem; } }
   .btn.btn-sm {
     height: 40px;
     padding: 0 1rem;
@@ -393,6 +397,9 @@ p {
         color: #0C344C !important;
         opacity: 0.3 !important;
         transition: opacity 0.3s; }
+        @media all and (max-width: 575px) {
+          .tabs.tabs-bottom.tabs-simple .nav-tabs > li .nav-link {
+            padding: 16px 16px; } }
         .tabs.tabs-bottom.tabs-simple .nav-tabs > li .nav-link:hover {
           opacity: 1 !important; }
         .tabs.tabs-bottom.tabs-simple .nav-tabs > li .nav-link:after {
@@ -411,6 +418,9 @@ p {
 
 .tab-content__text {
   padding: 72px 15px; }
+  @media all and (max-width: 767px) {
+    .tab-content__text {
+      padding: 0 15px 32px; } }
 .tab-content > .tab-pane {
   display: block;
   height: 0;

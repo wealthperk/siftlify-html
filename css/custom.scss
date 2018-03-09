@@ -35,6 +35,10 @@ strong, b {
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
+    @media all and (max-width: 575px) {
+      font-weight: 600;
+      padding: 0 1rem;
+    }
   }
   &.btn-sm {
     height: 40px;
@@ -475,6 +479,9 @@ p {
          color: #0C344C !important;
          opacity: 0.3 !important;
          transition: opacity 0.3s;
+         @media all and (max-width: 575px) {
+           padding: 16px 16px;
+         }
          &:hover {
            opacity: 1 !important;
          }
@@ -504,6 +511,9 @@ p {
 .tab-content {
   &__text {
     padding: 72px 15px;
+    @media all and (max-width: 767px) {
+      padding: 0 15px 32px;
+    }
   }
   > .tab-pane {
     display: block;
