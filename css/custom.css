@@ -100,6 +100,9 @@ strong, b {
 
 .header__body {
   min-height: 800px;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
   background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 64%); }
   .header__body.inner-page {
     min-height: 428px;
@@ -116,6 +119,10 @@ strong, b {
   letter-spacing: -0.3px;
   line-height: 42px;
   margin-bottom: 30px; }
+  @media all and (max-width: 575px) {
+    .header__title {
+      font-size: 1.3rem;
+      font-weight: 600; } }
 .header__text {
   font-size: 1rem;
   font-weight: 300;
@@ -285,6 +292,7 @@ p {
   .info-box__icon {
     display: block;
     width: 56px;
+    min-width: 56px;
     height: 56px;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -323,7 +331,7 @@ p {
     .info-box__actions p {
       padding-left: 56px; }
       .info-box__actions p a {
-        white-space: nowrap; }
+        white-space: normal; }
     .info-box__actions ._toggle > div {
       position: relative;
       width: 52px;
@@ -483,6 +491,14 @@ p {
 
 .feature-box.feature-box-style-5 h4 {
   color: #0C344C; }
+
+.feature-box.feature-box-style-4 h4 {
+  font-size: 2rem;
+  text-align: center; }
+.feature-box.feature-box-style-4 .feature-box-icon {
+  justify-content: center; }
+.feature-box.feature-box-style-4 .feature-box-info {
+  text-align: center; }
 
 #footer {
   background-color: #13547A;

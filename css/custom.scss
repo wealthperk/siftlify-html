@@ -116,6 +116,9 @@ strong, b {
 .header {
   &__body {
     min-height: 800px;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
     background-image: linear-gradient(-16deg, #80D0C7 0%, #13547A 64%);
     &.inner-page {
       min-height: 428px;
@@ -136,6 +139,10 @@ strong, b {
     letter-spacing: -0.3px;
     line-height: 42px;
     margin-bottom: 30px;
+    @media all and (max-width: 575px) {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
   }
   &__text {
     font-size: 1rem;
@@ -332,6 +339,7 @@ p {
   &__icon {
     display: block;
     width: 56px;
+    min-width: 56px;
     height: 56px;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -382,7 +390,7 @@ p {
     p {
       padding-left: 56px;
       a {
-        white-space: nowrap;
+        white-space: normal;
       }
     }
     ._toggle {
@@ -596,6 +604,21 @@ p {
 }
 .feature-box.feature-box-style-5 h4 {
   color: #0C344C;
+}
+
+.feature-box {
+  &.feature-box-style-4 {
+    h4 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .feature-box-icon {
+      justify-content: center;
+    }
+    .feature-box-info {
+      text-align: center;
+    }
+  }
 }
 
 #footer {
