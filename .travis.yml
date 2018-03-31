@@ -2,5 +2,5 @@ install: true
 script: true
 deploy:
   provider: s3
-  bucket: "siftlify.web"
+  bucket: "siftlify.com"
   region: us-east-2
